@@ -1,0 +1,37 @@
+ec2
+lambda fun(few que)
+s3
+vpc
+
+
+prop of s3
+versioning reqd why in s3
+scenerio based que
+
+ec2 connecting (sec grp , permission denied (key pair problem))
+
+
+asg(template, min , max size, scaling policies)
+what is reqd for asg
+
+volumes (snap shot , region specific)
+
+states of ec2 (running, stop, start, impaired(prblm with host/instance)-shutdown it and then again start it)
+
+region of ec2 the nearest ones.
+
+region -dont select anything(best practice)
+
+subnet to route table one to one
+route table to subnet one to many
+
+nacl (network access control list(to deny access to specifict user(nacl have deny rules)))- applied to subnets(one subnet can have one ncal but one nacl can have many subnets)
+
+local in route table 
+
+cidr
+
+if we apply cidr block vpc to one subnet the sbnet will act as a vpc
+every vpc will have one inetrnet gateway (one to one)
+
+role/credentials 
